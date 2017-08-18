@@ -1,0 +1,9 @@
+{
+  "name": "querix.lyciaweb.ext",
+  "description": "Querix LyciaWeb Native Messaging API Host",
+  "path": "lyciawebnative.exe",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://moejakilklfldeenjlfbjpmadadgeopk/"
+  ]
+}

@@ -1,0 +1,3 @@
+candle LyciaWebChromeExtension.wxs
+light LyciaWebChromeExtension.wixobj
+ren LyciaWebChromeExtension.msi LyciaWebChromeExtension32.msi

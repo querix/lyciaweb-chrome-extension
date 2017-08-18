@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+  "name": "Lycia Web Extension",
+  "description": "Lycia Web Extension",
+  "version": "1.0.1",
+  "icons": {
+    "16" : "lycia_16.png",
+    "24" : "lycia_24.png",
+    "32" : "lycia_32.png",
+    "48" : "lycia_48.png",
+    "64" : "lycia_64.png",
+    "128": "lycia_128.png",
+    "256": "lycia_256.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "web_accessible_resources" : ["logo.png"],
+  "permissions": [
+    "nativeMessaging"
+  ],
+  "externally_connectable": {
+    "matches": ["http://localhost:*/*"],
+    "accepts_tls_channel_id": false
+  }
+}
