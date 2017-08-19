@@ -15,7 +15,7 @@
   "background": {
     "scripts": ["background.js"]
   },
-  "web_accessible_resources" : ["logo.png"],
+  "web_accessible_resources" : ["lycia_48.png"],
   "permissions": [
     "nativeMessaging"
   ],
